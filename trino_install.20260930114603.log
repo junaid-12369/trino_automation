@@ -1,112 +1,0 @@
-[0;34m[2026-09-30 11:46:03][0m Running in AUTOMATED (non-interactive) mode.
-[0;34m[2026-09-30 11:46:03][0m Trino 483 requires Java 25+.
-[0;32m[2026-09-30 11:46:03] [OK][0m Detected OS: ubuntu (family: debian)
-[0;34m[2026-09-30 11:46:03][0m Installing base packages for family 'debian' ...
-Hit:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
-Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:4 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1322 kB]
-Get:5 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [299 kB]
-Get:6 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [181 kB]
-Get:7 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1699 kB]
-Get:8 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [341 kB]
-Get:9 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [388 kB]
-Get:10 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1662 kB]
-Get:11 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [379 kB]
-Get:12 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Get:13 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5760 B]
-Get:14 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
-Get:15 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:16 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1066 kB]
-Get:17 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [220 kB]
-Get:18 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [46.4 kB]
-Get:19 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1216 kB]
-Get:20 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
-Get:21 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1566 kB]
-Get:22 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [361 kB]
-Fetched 11.2 MB in 4s (2544 kB/s)
-Reading package lists...
-Reading package lists...
-Building dependency tree...
-Reading state information...
-wget is already the newest version (1.21.4-1ubuntu4.5).
-curl is already the newest version (8.5.0-2ubuntu10.15).
-tar is already the newest version (1.35+dfsg-3ubuntu0.4).
-gzip is already the newest version (1.12-1ubuntu3.2).
-ca-certificates is already the newest version (20260601~24.04.1).
-python3 is already the newest version (3.12.3-0ubuntu2.1).
-apache2-utils is already the newest version (2.4.58-1ubuntu8.15).
-The following additional packages will be installed:
-  libssl-dev libssl3t64
-Suggested packages:
-  libssl-doc
-The following packages will be upgraded:
-  libssl-dev libssl3t64 openssl
-3 upgraded, 0 newly installed, 0 to remove and 43 not upgraded.
-Need to get 5358 kB of archives.
-After this operation, 3072 B of additional disk space will be used.
-Get:1 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl-dev amd64 3.0.13-0ubuntu3.16 [2409 kB]
-Get:2 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 libssl3t64 amd64 3.0.13-0ubuntu3.16 [1945 kB]
-Get:3 http://ap-south-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 openssl amd64 3.0.13-0ubuntu3.16 [1004 kB]
-Fetched 5358 kB in 0s (107 MB/s)
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121161 files and directories currently installed.)
-Preparing to unpack .../libssl-dev_3.0.13-0ubuntu3.16_amd64.deb ...
-Unpacking libssl-dev:amd64 (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.15) ...
-Preparing to unpack .../libssl3t64_3.0.13-0ubuntu3.16_amd64.deb ...
-Unpacking libssl3t64:amd64 (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.15) ...
-Setting up libssl3t64:amd64 (3.0.13-0ubuntu3.16) ...
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 121161 files and directories currently installed.)
-Preparing to unpack .../openssl_3.0.13-0ubuntu3.16_amd64.deb ...
-Unpacking openssl (3.0.13-0ubuntu3.16) over (3.0.13-0ubuntu3.15) ...
-Setting up libssl-dev:amd64 (3.0.13-0ubuntu3.16) ...
-Setting up openssl (3.0.13-0ubuntu3.16) ...
-Processing triggers for man-db (2.12.0-4build2) ...
-Processing triggers for libc-bin (2.39-0ubuntu8.9) ...
-
-Running kernel seems to be up-to-date.
-
-Restarting services...
- /etc/needrestart/restart.d/systemd-manager
- systemctl restart airflow-apiserver.service airflow-dagprocessor.service airflow-scheduler.service airflow-triggerer.service packagekit.service postgresql.service ssh.service systemd-journald.service systemd-networkd.service systemd-resolved.service systemd-udevd.service trino.service udisks2.service
-Failed to restart trino.service: Unit trino.service not found.
-
-Service restarts being deferred:
- systemctl restart systemd-logind.service
-
-No containers need to be restarted.
-
-User sessions running outdated binaries:
- ubuntu @ session #1: sshd[1221]
- ubuntu @ user manager service: systemd[1238]
-
-No VM guests are running outdated hypervisor (qemu) binaries on this host.
-[0;32m[2026-09-30 11:46:23] [OK][0m Base packages installed.
-[0;34m[2026-09-30 11:46:23][0m Creating directory structure ...
-[0;32m[2026-09-30 11:46:23] [OK][0m OS user 'ubuntu' already exists.
-[0;32m[2026-09-30 11:46:23] [OK][0m Using JAVA_HOME=/usr/lib/jvm/temurin-25-jdk (openjdk version "25.0.4.1" 2026-08-18 LTS)
-[0;34m[2026-09-30 11:46:23][0m Downloading https://repo1.maven.org/maven2/io/trino/trino-server/483/trino-server-483.tar.gz ...
-[0;34m[2026-09-30 11:46:54][0m Extracting trino-server-483 (large archive, please wait) ...
-[0;34m[2026-09-30 11:47:01][0m Copying Trino into /data/apps/trino ...
-[0;32m[2026-09-30 11:47:14] [OK][0m Trino 483 installed to /data/apps/trino
-[0;34m[2026-09-30 11:47:14][0m Downloading https://github.com/trinodb/trino/releases/download/483/trino-cli-483 ...
-[0;32m[2026-09-30 11:47:15] [OK][0m Trino CLI installed; wrapper at /usr/local/bin/trino (run: trino --server https://172.31.37.239:8443 --insecure ...)
-[0;34m[2026-09-30 11:47:15][0m Generating PKCS12 keystore /data/apps/trino/etc/coordinator.p12 (CN=172.31.37.239, valid 3650 days) ...
-Generating 2048-bit RSA key pair and self-signed certificate (SHA384withRSA) with a validity of 3,650 days
-	for: CN=172.31.37.239, OU=Data, O=Trino, C=IN
-[0;32m[2026-09-30 11:47:17] [OK][0m Keystore created (self-signed).
-[0;32m[2026-09-30 11:47:17] [OK][0m Certificate alias 'trino-172.31.37.239' already trusted by the JVM.
-[0;34m[2026-09-30 11:47:17][0m Writing Trino configuration under /data/apps/trino/etc ...
-[0;32m[2026-09-30 11:47:17] [OK][0m config.properties, jvm.config, node.properties written.
-[0;34m[2026-09-30 11:47:17][0m Configuring PASSWORD authentication (file authenticator, bcrypt) ...
-Adding password for user admin
-[0;32m[2026-09-30 11:47:17] [OK][0m User 'admin' set in /data/apps/trino/etc/password.db.
-[1;33m[2026-09-30 11:47:17] [WARN][0m No catalogs enabled - Trino will start with only the built-in system catalog.
-[0;32m[2026-09-30 11:47:17] [OK][0m Ownership and permissions applied.
-[0;34m[2026-09-30 11:47:17][0m Creating systemd unit: /etc/systemd/system/trino.service
-[0;32m[2026-09-30 11:47:17] [OK][0m systemd service 'trino' created and enabled.
-[0;34m[2026-09-30 11:47:17][0m Starting trino.service ...
-[0;34m[2026-09-30 11:47:18][0m Waiting for Trino to finish starting (up to ~3 minutes) ...
-[0;32m[2026-09-30 11:47:34] [OK][0m Trino is up and ready on https://172.31.37.239:8443
-[0;34m[2026-09-30 11:47:34][0m Running smoke test: SHOW CATALOGS ...
-"system"
-[0;32m[2026-09-30 11:47:40] [OK][0m Smoke test passed.
