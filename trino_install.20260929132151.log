@@ -1,0 +1,3 @@
+[0;34m[2026-09-29 13:21:51][0m Running in AUTOMATED (non-interactive) mode.
+[0;34m[2026-09-29 13:21:51][0m Trino 483 requires Java 25+.
+[0;31m[2026-09-29 13:21:51] [ERROR][0m AUTOMATED mode: Trino admin password (min 8 chars) must be at least 8 characters.

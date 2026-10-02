@@ -1,0 +1,14 @@
+[2026-09-29 13:21:51] === 172.31.37.239 (control server itself) === running locally
+Executing: trino_install
+
+======================================================================
+ Trino - Automated Installation
+======================================================================
+[0;34m[2026-09-29 13:21:51][0m Running in AUTOMATED (non-interactive) mode.
+[0;34m[2026-09-29 13:21:51][0m Trino 483 requires Java 25+.
+[0;31m[2026-09-29 13:21:51] [ERROR][0m AUTOMATED mode: Trino admin password (min 8 chars) must be at least 8 characters.
+[2026-09-29 13:21:51] [ERROR] Trino installer exited with code 1 -- see /home/ubuntu/trino_automation/trino.access.log and /home/ubuntu/trino_automation/trino_install.*.log
+Error executing: trino_install
+[2026-09-29 13:21:51] === 172.31.37.239: FAILED (local) -- see ./deploy.29092026132150.log ===
+[2026-09-29 13:21:51] Deployment finished with failures on: 172.31.37.239 (0/1 succeeded)
+[2026-09-29 13:21:51] Full details in ./deploy.29092026132150.log
